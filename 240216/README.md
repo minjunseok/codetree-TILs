@@ -13,7 +13,7 @@
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
 |[Novice Low / 연산자 / 합과 평균](https://www.codetree.ai/missions?missionId=4)|[[개념]합과 평균](https://www.codetree.ai/missions/4/problems/sum-and-avg)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/minjunseok/codetree-TILs/blob/main/240216/%ED%95%A9%EA%B3%BC%20%ED%8F%89%EA%B7%A0/sum-and-avg.java)|
-|[Novice Low / 연산자 / 합과 평균](https://www.codetree.ai/missions?missionId=4)|[[연습]세 수의 합과 평균 구하기](https://www.codetree.ai/missions/4/problems/sum-and-mean-of-three-numbers)|![쉬움][easy]|![Failed][failed]|[링크](https://github.com/minjunseok/codetree-TILs/blob/main/240216/%EC%84%B8%20%EC%88%98%EC%9D%98%20%ED%95%A9%EA%B3%BC%20%ED%8F%89%EA%B7%A0%20%EA%B5%AC%ED%95%98%EA%B8%B0/sum-and-mean-of-three-numbers.java)|
+|[Novice Low / 연산자 / 합과 평균](https://www.codetree.ai/missions?missionId=4)|[[연습]세 수의 합과 평균 구하기](https://www.codetree.ai/missions/4/problems/sum-and-mean-of-three-numbers)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/minjunseok/codetree-TILs/blob/main/240216/%EC%84%B8%20%EC%88%98%EC%9D%98%20%ED%95%A9%EA%B3%BC%20%ED%8F%89%EA%B7%A0%20%EA%B5%AC%ED%95%98%EA%B8%B0/sum-and-mean-of-three-numbers.java)|
 
 
 * 획득 경험치: 해설을 보지 않고 푼 문제에 한해 최초 1회 경험치를 획득하실 수 있습니다.
