@@ -16,9 +16,7 @@ public class Main {
     System.out.print(b - a);
     break;
     }
-    else if (a == b) {
-    
+
     }
 }
     }
-}
