@@ -8,11 +8,11 @@ public class Main {
     while(true){
     int a = sc.nextInt();
     int b = sc.nextInt();
-    if (a > b){
+    if (a >= b){
     System.out.print(a - b);
     break;
     }
-    else if (a < b) {
+    else if (a <= b) {
     System.out.print(b - a);
     break;
     }
