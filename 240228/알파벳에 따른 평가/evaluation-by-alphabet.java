@@ -7,7 +7,7 @@ public class Main {
     sc.close();
 
     if (a.equals("S")) {
-      System.out.print("Superiror");
+      System.out.print("Superior");
     } else if (a.equals("A")) {
       System.out.print("Excellent");
     } else if (a.equals("B")) {
