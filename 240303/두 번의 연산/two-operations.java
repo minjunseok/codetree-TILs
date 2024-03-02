@@ -7,11 +7,10 @@ public class Main {
     
     if(a % 2 == 1) {
         a += 3;
-    
+    }
     if(a % 3 == 0) {
         a /= 3;
-    }     
+    }   
+    System.out.print(a);  
     }
-    System.out.print(a);
     }
-}
