@@ -8,8 +8,7 @@ public class Main {
     int c = sc.nextInt();
 
 
-// 1 2 3
-    if ((a == b && b <= c)||(a == c && c <= b)) {
+    if ((c >= b && b >= a)||(b >= c && c >= a)) {
         System.out.print(1 + " ");
     } else {
         System.out.print(0 + " ");
