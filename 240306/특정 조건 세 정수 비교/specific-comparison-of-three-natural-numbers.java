@@ -9,7 +9,7 @@ public class Main {
 
 
 // 1 2 3
-    if ((b < c && b == a )||( c < b && c == a)) {
+    if ((a == b && b <= c)||(a == c && c <= b)) {
         System.out.print(1 + " ");
     } else {
         System.out.print(0 + " ");
