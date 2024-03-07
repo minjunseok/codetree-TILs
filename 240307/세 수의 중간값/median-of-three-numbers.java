@@ -8,5 +8,12 @@ public class Main {
     int c = sc.nextInt();
 
     System.out.print((b > a && b < c) ? 1 : 0);
+
+    //if else 문 사용시
+    // if (b > a && b < c) {
+    //     System.out.print(1);
+    // } else {
+    //     System.out.print(0)
+    // }
     }
 }
