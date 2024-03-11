@@ -6,7 +6,7 @@ public class Main {
     int a = sc.nextInt();
     if (a  % 4 == 0) {
         System.out.print("true");
-    } else if (a % 100 == 0 && a % 400 != 0) {
+    } else if ((a % 100 == 0) && (a % 400 != 0)) {
         System.out.print("false");
     } else {
         System.out.print("false");
