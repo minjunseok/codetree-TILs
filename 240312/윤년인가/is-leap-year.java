@@ -27,3 +27,20 @@ if ((a % 100 == 0) && (a % 400 != 0)) {
 }
     }
 }
+
+
+
+// 코드트리 해설에 나온 코드
+
+//         // 변수 선언
+//         int y;
+        
+//         // 입력
+//         y = sc.nextInt();
+        
+//         if((y % 4 == 0 && y % 100 != 0) || y % 400 == 0)
+//             System.out.println("true");
+//         else
+//             System.out.println("false");
+//     }
+// }
