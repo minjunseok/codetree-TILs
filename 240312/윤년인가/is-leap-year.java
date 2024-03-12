@@ -16,8 +16,10 @@ public class Main {
 
 if ((a % 100 == 0) && (a % 400 != 0)) {
     System.out.print("false");
-} else  {
+} else if (a % 4 == 0) {
     System.out.print("true");
+} else {
+    System.out.print("false");
 }
     }
 }
