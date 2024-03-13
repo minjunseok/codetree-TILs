@@ -8,17 +8,17 @@ public class Main {
     int b = sc.nextInt();
     int c = sc.nextInt();
 
-    if (a > b && b >= c) {
+    if (a >= b && b >= c) {
         System.out.print(a);
-    } else if (a > c && c >= b) {
+    } else if (a >= c && c >= b) {
         System.out.print(a);
-    } else if (b > c && c >= a) {
+    } else if (b >= c && c >= a) {
         System.out.print(b);
-    } else if (b > a && a >= c) {
+    } else if (b >= a && a >= c) {
         System.out.print(b);
-    } else if (c > a && a >= b) {
+    } else if (c >= a && a >= b) {
         System.out.print(c);
-    } else if (c > b && b >= a) {
+    } else if (c >= b && b >= a) {
         System.out.print(c);
     }
     }
