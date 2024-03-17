@@ -7,8 +7,8 @@ public class Main {
     int a = sc.nextInt();
 
     //a * 1 , a * 2 , a * 3, a * 4, a * 5
-    for (int i = 1; i <= 5; i++) {
-        System.out.print(a * i + " ");
+    for (int i = a; i <= 5 * a; i += a) {
+        System.out.print(i + " ");
     }
     }
 }
