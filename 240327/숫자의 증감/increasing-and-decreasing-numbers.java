@@ -14,7 +14,7 @@ public class Main {
           
         } 
     } else if (c == 'D') {
-        for (int i = a; i >= a; i--) {
+        for (int i = a; i >= 1; i--) {
             System.out.print(i + " ");
             
         }
