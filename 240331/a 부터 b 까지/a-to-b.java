@@ -8,11 +8,11 @@ public class Main {
 
 
     for(int i = a; i < b;) {
-    if (i % 2 == 0 && i < b) {
+    if (i % 2 == 0 && i <= b) {
         System.out.print(i + " ");
         i += 3;
     }
-    if (i % 2 != 0 && i < b) {
+    if (i % 2 != 0 && i <= b) {
         System.out.print(i + " ");
         i = i * 2;
     }
