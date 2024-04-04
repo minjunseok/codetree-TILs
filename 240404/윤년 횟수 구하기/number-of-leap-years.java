@@ -6,11 +6,12 @@ public class Main {
     int a = sc.nextInt();
     int cnt = 0;
     
-    for(int i = 1; i < a; i++) {
+    for(int i = 1; i <= a; i++) {
         if (i % 4 == 0) {
-            cnt += 1;
+            cnt++;
         }
-        if (i% 4 == 0 && i % 100 == 0 && i % 400 != 0) {
+        if (i % 100 == 0 && i % 400 != 0) {
+            cnt--;
         }
     }
     System.out.print(cnt);
