@@ -10,7 +10,7 @@ public class Main {
         if (i % 4 == 0) {
             cnt += 1;
         }
-        if (i % 100 == 0 && i % 400 != 0) {
+        if (i% 4 == 0 && i % 100 == 0 && i % 400 != 0) {
         }
     }
     System.out.print(cnt);
