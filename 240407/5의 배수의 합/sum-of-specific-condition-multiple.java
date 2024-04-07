@@ -11,7 +11,7 @@ public class Main {
     for(int i = a; i <= b; i++) {
 
         if (i % 5 == 0) {
-            sum++;
+            sum += i;
         }
     }
     System.out.print(sum);
