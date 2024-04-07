@@ -7,7 +7,7 @@ public class Main {
     int c = sc.nextInt();
     int sum = 0;
 
-    for(int i = 1; i < c; i++) {
+    for(int i = 0; i < c; i++) {
         if (i % 2 != 0 && i % 3 == 0) {
             sum += i;
         }
