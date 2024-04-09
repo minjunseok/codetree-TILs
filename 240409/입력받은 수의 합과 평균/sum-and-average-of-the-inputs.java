@@ -15,6 +15,6 @@ public class Main {
     }
     avr = (double) sum / (cnt);
     System.out.print(sum + " ");
-    System.out.print(avr);
+    System.out.printf("%.1f",avr);
     }
 }
