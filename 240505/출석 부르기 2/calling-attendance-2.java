@@ -7,14 +7,11 @@ public class Main {
     int a = sc.nextInt();
     if (a == 1) {
         System.out.println("John");
-    }
-    if (a == 2) {
+    } else if (a == 2) {
         System.out.println("Tom");
-    }
-    if (a == 3) {
+    } else if (a == 3) {
         System.out.println("Paul");
-    }
-    if (a == 4) {
+    } else if (a == 4) {
         System.out.println("Sam");
     } else {
         System.out.print("Vacancy");
