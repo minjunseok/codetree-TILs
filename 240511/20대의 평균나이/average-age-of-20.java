@@ -14,7 +14,7 @@ public class Main {
 
         int a = sc.nextInt();
 
-        if(a < 30) {
+        if(a > 19 && a < 30) {
 
             sum += a;
             cnt++;
