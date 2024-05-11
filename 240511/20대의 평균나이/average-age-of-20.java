@@ -12,6 +12,8 @@ public class Main {
 
     while(true) {
 
+        try {
+
         int a = sc.nextInt();
 
         if(a < 30) {
@@ -25,11 +27,14 @@ public class Main {
             System.out.printf("%.2f" , avr);
             break;
         }
+        } catch (Exception e) {
+
+            sc.close();
+
+        }
 
         
     }
-
-    sc.close();
 
     }
 
