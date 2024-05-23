@@ -21,7 +21,7 @@ public class Main {
                 bl = true;
                 cnt++;
 
-            }  else if ((i % c != 0) && i == c) {
+            }  else if ((i % c != 0) && i == c || (c > b)) {
 
                 bl = false;
                 cnt++;
