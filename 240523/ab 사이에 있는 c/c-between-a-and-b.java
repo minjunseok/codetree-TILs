@@ -7,20 +7,36 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
+        boolean bl = true;
+        int cnt = 0;
     
-        for (int i = a; i <= b i++;) {
+        for (int i = a; i <= b; i++) {
 
-            if (c % a == 0) {
-                System.out.print("YES");
+            if (cnt == 1) {
+
                 break;
-            } else if (c % b == 0) {
-                System.out.print("YES");
-                break;
-            } else {
-                System.out.print("NO");
-                break;
+
+            }  else if (i % c == 0) {
+
+                bl = true;
+                cnt++;
+
+            }  else if ((i % c != 0) && i == c){
+
+                bl = false;
+                cnt++;
             }
         }
-        
-        }
+
+            if (bl == true) {
+
+                  System.out.print("YES");
+
+            } else if(bl == false) {
+
+                  System.out.print("NO");
+            }
+              
     }
+
+}
