@@ -21,10 +21,6 @@ public class Main {
 
                 cnt = true;
 
-            } else {
-
-                cnt = false;
-
             }
 
     }
