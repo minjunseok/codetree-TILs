@@ -13,12 +13,6 @@ public class Main {
             for(int l = 0; l < i; l++) {
                 
                 System.out.print("*");
-
-                // for(int j = 0; j < l; j++) {
-
-                //     System.out.print("*");
-
-                // }
             }
 
             System.out.println();
