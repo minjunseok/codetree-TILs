@@ -5,38 +5,20 @@ public class Main {
         
         Scanner sc = new Scanner(System.in);
 
-    int n = sc.nextInt();
+        int n = sc.nextInt();
 
-for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
-                // 짝수 인덱스에서는 별을 출력
-                for (int j = 0; j < n - (i / 2); j++) {
+
+        // i가 홀수인 경우 별을 1 + (i / 2)개, 짝수인 경우 n - (i / 2)개 출력합니다
+        for(int i = 0; i < 2 * n; i++) {
+            if(i % 2 == 1) {
+                for(int k = 0; k < 1 + i / 2; k++)
                     System.out.print("* ");
-                }
-            } else {
-                // 홀수 인덱스에서는 별을 출력
-                for (int j = 0; j < (i + 1) / 2; j++) {
-                    System.out.print("* ");
-                }
             }
-            System.out.println(); // 줄 바꿈
-        }
-
-        // 하단 패턴 출력
-        for (int i = n - 1; i >= 0; i--) {
-            if (i % 2 == 0) {
-                // 짝수 인덱스에서는 별을 출력
-                for (int j = 0; j < n - (i / 2); j++) {
+            else {
+                for(int k = 0; k < n - i / 2; k++)
                     System.out.print("* ");
-                }
-            } else {
-                // 홀수 인덱스에서는 별을 출력
-                for (int j = 0; j < (i + 1) / 2; j++) {
-                    System.out.print("* ");
-                }
             }
-            System.out.println(); // 줄 바꿈
+            System.out.println();
         }
-
-}
+    }
 }
