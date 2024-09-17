@@ -23,7 +23,8 @@ public class Main {
                 }
 
                 System.out.println();
-                cnt -= 8;
+                cnt -= (n * 2) - 2;
+                
                 
             }
 
