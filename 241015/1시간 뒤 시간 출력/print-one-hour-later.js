@@ -11,6 +11,10 @@
 
 // console.log(hour+":"+minute);
 
+
+//코드트리 해설 답
+
+
 const fs = require("fs");
 
 let input = fs.readFileSync(0).toString().trim().split(":");
