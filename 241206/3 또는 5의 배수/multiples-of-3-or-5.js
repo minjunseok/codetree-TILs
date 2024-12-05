@@ -8,7 +8,7 @@ if(a % 3 === 0) {
 
     console.log("YES");
 
-} else if (a % 5 === 0) {
+} else {
 
     console.log("NO");
 
