@@ -8,27 +8,17 @@ if(a % 3 === 0) {
 
     console.log("YES");
 
-    if(a % 5 === 0) {
+} else if (a % 5 === 0) {
 
-        console.log("YES");
+    console.log("NO");
 
-    } else {
+}
 
-        console.log("NO");
+if(a % 5 === 0) {
 
-    }
+    console.log("YES");
 
 } else {
 
     console.log("NO");
 }
-
-if(a % 5 === 0) {
-
-        console.log("YES");
-
-    } else {
-
-        console.log("NO");
-
-    }
