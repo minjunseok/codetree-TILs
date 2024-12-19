@@ -10,14 +10,20 @@ let b = Number(input[1]);
 let c = Number(input[2]);
 
 
-if(b < c && a === b) {
+if(a === b && b < c) {
 
    
     console.log(1 , a === b && b === c ? 1 : 0);
 
-} else {
+
+
+} else if(a < b && b < c) {
     
+    console.log(1 , a === b && b === c ? 1 : 0);
+
+} else {
 
     console.log(0 , a === b && b === c ? 1 : 0);
+
 }
 
