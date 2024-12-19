@@ -10,7 +10,7 @@ let b = Number(input[1]);
 let c = Number(input[2]);
 
 
-if(a === b && b < c || a < b && b < c) {
+if(a <= b && a <= c) {
 
    
     console.log(1 , a === b && b === c ? 1 : 0);
