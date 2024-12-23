@@ -26,7 +26,7 @@ if(a >= b && b > c) {
     console.log(a);
 
 
-} else if(c >= b && b >= c) {
+} else if(b >= a && a >= c) {
 
     console.log(c);
 
